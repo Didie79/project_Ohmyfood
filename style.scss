@@ -45,27 +45,46 @@ header {
 .presentation {
   background: #f5f7f6e3;
   margin: 0;
-  padding-bottom:3rem;
-  text-align:center;
+  padding-bottom: 3rem;
+  text-align: center;
   .reservation {
     padding: 0.5rem 3rem;
   }
+  .stitle {
+    padding-bottom: 1rem;
+  }
   .btn {
     border-radius: 25px;
-    background: linear-gradient(180deg, #9356dc, #ff79da);    
+    background: linear-gradient(180deg, #9356dc, #ff79da);
     box-shadow: 1px 2px 2px 1px rgb(211, 208, 208);
-    border:none;
-    padding: 1rem 3rem;  
-    transition: .2s ease;       
-    }   
-    .btn:hover{
-      background: hsl(295, 42%, 56%);
-      cursor:pointer;
-     
-    }
-    
+    border: none;
+    padding: 1rem 3rem;
+    transition: 0.2s ease;
   }
-  .btnText {
-    color: white;
+  .btn:hover {
+    background: hsl(295, 42%, 56%);
+    cursor: pointer;
   }
-
+}
+.btnText {
+  color: white;
+}
+//*selection menu*//
+.selection {
+  margin: 0;
+  padding: 0;
+  .selectionMenu {
+    margin-left: 0.5rem 1.5rem;
+  }
+  .ol {
+    list-style: none;
+  }
+  .lgn {
+    background-color: #9356dc;
+    padding: 2rem;
+    border-radius: 25px;
+    display: flex;
+    margin: 1rem 0;
+    max-width: 95%;
+  }
+}

@@ -55,6 +55,9 @@ header .logo h1 {
 .presentation .reservation {
   padding: 0.5rem 3rem;
 }
+.presentation .stitle {
+  padding-bottom: 1rem;
+}
 .presentation .btn {
   border-radius: 25px;
   background: linear-gradient(180deg, #9356dc, #ff79da);
@@ -70,4 +73,23 @@ header .logo h1 {
 
 .btnText {
   color: white;
+}
+
+.selection {
+  margin: 0;
+  padding: 0;
+}
+.selection .selectionMenu {
+  margin: 0.5rem;
+}
+.selection .ol {
+  list-style: none;
+}
+.selection .lgn {
+  background-color: #9356dc;
+  padding: 2rem;
+  border-radius: 25px;
+  display: flex;
+  margin: 1rem 0;
+  max-width: 95%;
 }/*# sourceMappingURL=style.css.map */
