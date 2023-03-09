@@ -46,17 +46,17 @@
             <span
               ><i class="fas-sharp fa-solid fa-mobile-screen-button icon"></i
             ></span>
-            <span>Choisissez un restaurant</span>
+            <span class="txt">Choisissez un restaurant</span>
           </li>
           <li class="lgn">
             <span class="num">2</span>
-            <span><i class="fa-solid fa-list"></i></span>
-            <span>Composer votre menu</span>
+            <span><i class="fa-solid fa-list icon"></i></span>
+            <span class="txt">Composer votre menu</span>
           </li>
-          <li class="lgn">
+          <li class="lgn lgn2">
             <span class="num">3</span>
-            <span><i class="fa-solid fa-store"></i></span>
-            <span>Dégustez un restaurant</span>
+            <span><i class="fa-solid fa-store icon2"></i></span>
+            <span class="txt">Dégustez un restaurant</span>
           </li>
         </ol>
       </section>
@@ -64,31 +64,46 @@
         <!--section menu Card-->
         <div class="cardMenu">
           <h3 class="title">Restaurants</h3>
-          <div class="card">
+          <div class="container">
             <div class="mCard">
-              <div class="cardImg">
-                <img
-                  src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                  alt="restaurant la palette du goût"
-                  style="width: 100%"
-                /><span class="news">Nouveau</span>
-              </div>
+              <!--Image-->
+              <img
+                src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                alt="restaurant la palette du goût"
+                style="width: 100%"
+              /><span class="news">Nouveau</span>
+              <!--fin d'image-->
               <div class="CardText">
-                <h4><b>La palette du goût</b></h4>
-                <p>Ménilmontant</p>
-                <span class="heart"><i class="fa-solid fa-heart"></i></span>
+                <!--corps de la card-->
+                <div class="card_title">
+                  <h4><b>La palette du goût</b></h4>
+                  <p>Ménilmontant</p>
+                </div>
+                <div class="heart">
+                  <span class="icn"><i class="fa-regular fa-heart"></i></span>
+                </div>
               </div>
+              <!--fin-->
             </div>
             <div class="mCard">
               <img
                 src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
                 alt="restaurant note enchantée"
                 style="width: 100%"
-              /><span class="">Nouveau</span>
+              /><span class="news">Nouveau</span>
               <div class="CardText">
-                <h4><b>La note enchantée</b></h4>
-                <p>Charonne</p>
-                <span class="heart"><i class="fa-solid fa-heart"></i></span>
+                <div class="card_title">
+                  <h4><b>La note enchantée</b></h4>
+                  <p>Charonne</p>
+                </div>
+                <div class="heart">
+                  <span class="icn"
+                    ><i class="fa-regular fa-heart myheartOn"></i
+                  ></span>
+                  <span class="icn"
+                    ><i class="fa-solid fa-heart myheartOff"></i
+                  ></span>
+                </div>
               </div>
             </div>
             <div class="mCard">
@@ -98,9 +113,13 @@
                 style="width: 100%"
               />
               <div class="CardText">
-                <h4><b>À la française</b></h4>
-                <p>Cité Rouge</p>
-                <span class="heart"><i class="fa-solid fa-heart"></i></span>
+                <div class="card_title">
+                  <h4><b>À la française</b></h4>
+                  <p>Cité Rouge</p>
+                </div>
+                <div class="heart">
+                  <span class="icn"><i class="fa-regular fa-heart"></i></span>
+                </div>
               </div>
             </div>
             <div class="mCard">
@@ -110,9 +129,15 @@
                 style="width: 100%"
               />
               <div class="CardText">
-                <h4><b>Le délice des sens</b></h4>
-                <p>Folie-Méricourt</p>
-                <span class="heart"><i class="fa-solid fa-heart"></i></span>
+                <div class="card_title">
+                  <h4>Le délice des sens</h4>
+                  <p>Folie-Méricourt</p>
+                </div>
+                <div class="heart">
+                  <span class="icn"
+                    ><i class="fa-regular fa-heart heartOn"></i
+                  ></span>
+                </div>
               </div>
             </div>
           </div>
@@ -122,15 +147,15 @@
     <!--FOOTER-->
     <footer>
       <div class="contenair">
-        <h3>Ohmyfood</h3>
+        <h3 class="footerTtl">Ohmyfood</h3>
         <ul>
           <li>
-            <span><i class="fa-solid fa-utensils"></i></span>Proposer un
+            <span><i class="fa-solid fa-utensils iFooter"></i></span> Proposer un
             restaurant
           </li>
           <li>
-            <span> <i class="fa-solid fa-handshake-angle"></i></span>Devenir
-            partenaire
+            <span> <i class="fa-solid fa-handshake-angle iFooter2"></i></span
+            >Devenir partenaire
           </li>
           <li>Mentions légales</li>
           <li>Contact</li>
